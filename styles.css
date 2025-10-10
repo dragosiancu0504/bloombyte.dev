@@ -50,6 +50,12 @@ body {
     font-weight: 700;
     font-size: 1.5rem;
     color: #2563eb;
+    text-decoration: none;
+    transition: opacity 0.3s ease;
+}
+
+.logo:hover {
+    opacity: 0.8;
 }
 
 .logo-icon {
@@ -537,6 +543,11 @@ section {
 .footer-brand .logo {
     color: white;
     margin-bottom: 1rem;
+    text-decoration: none;
+}
+
+.footer-brand .logo:hover {
+    opacity: 0.8;
 }
 
 .footer-tagline {
